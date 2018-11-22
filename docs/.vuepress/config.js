@@ -6,6 +6,20 @@ module.exports = {
         { text: 'Home', link: '/' },
         { text: 'Guide', link: '/guide/' },
         { text: 'External', link: 'https://google.com' },
-      ]
+      ],
+      sidebar: {
+        '/JavaScript/': [
+          {
+            title: 'Array',
+            collapsable: true,
+            children: [
+              'Array_isArray',
+              'Array_from',
+              'Array_of',
+              'Array_concat'
+            ]
+          }      
+        ]
+      }
     }    
   }

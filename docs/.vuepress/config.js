@@ -16,9 +16,19 @@ module.exports = {
               'Array_isArray',
               'Array_from',
               'Array_of',
-              'Array_concat'
+              'Array_concat',
+              'Array_copyWithin',
+              'Array_entries',
+              'Array_every',
+              'Array_fill',
+              'Array_filter',
+              'Array_find',
+              'Array_findIndex',
+              'Array_forEach',
+              'Array_includes',
+              'Array_indexOf'
             ]
-          }      
+          }  
         ]
       }
     }    
